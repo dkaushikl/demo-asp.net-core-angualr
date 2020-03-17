@@ -1,0 +1,9 @@
+.frm-margin {
+    display: flex;
+    align-items: flex-end;
+}
+
+.error-block {
+    position: absolute;
+    margin-bottom: 10px;
+}

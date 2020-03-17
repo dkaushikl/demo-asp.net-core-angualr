@@ -1,0 +1,340 @@
+{
+
+  "_comment": "-------------------- General ----------------",
+
+  "msg_required": {
+    "eng": "This value is required.",
+    "arb": "هذه القيمة مطلوبة."
+  },
+  "btn_submit": {
+    "eng": "Submit",
+    "arb": "أنشئ"
+  },
+
+  "workflow": {
+    "eng": "Workflow",
+    "arb": "الدورات المستندية"
+  },
+  "searchere": {
+    "eng": "Search here...",
+    "arb": "ابحث هنا..."
+  },
+  "btn_close": {
+    "eng": "Close",
+    "arb": "قريب"
+  },
+  "btn_save": {
+    "eng": "Save",
+    "arb": "قريب"
+  },
+  "add": {
+    "eng": "Add",
+    "arb": "إضافة"
+  },
+  "edit": {
+    "eng": "Edit",
+    "arb": "تعديل"
+  },
+  "msg_areyousure": {
+    "eng": "Are you sure?",
+    "arb": "هل أنت واثق؟"
+  },
+  "btn_yes": {
+    "eng": "Yes",
+    "arb": "نعم"
+  },
+  "btn_nokeepit": {
+    "eng": "No, keep it",
+    "arb": "لا ، احتفظ بها"
+  },
+
+
+
+
+  "_comment1": "-------------------- Create Workflow ----------------",
+
+  "crt_create": {
+    "eng": "Create",
+    "arb": "إنشاء دورة جديدة"
+  },
+  "crt_choose": {
+    "eng": "Choose",
+    "arb": "أختر"
+  },
+  "crt_direct": {
+    "eng": "Direct",
+    "arb": "إختيار نموذج"
+  },
+  "crt_fromtemplate": {
+    "eng": "From Template",
+    "arb": "أختر"
+  },
+  "crt_workflowsubject": {
+    "eng": "Workflow Subject",
+    "arb": "عنوان الدورة المستندية"
+  },
+  "crt_workflowtype": {
+    "eng": "Workflow Type",
+    "arb": "نوع الدورة المستندية"
+  },
+  "crt_enddate": {
+    "eng": "End Date",
+    "arb": "تاريخ إنتهاء الدورة المستندية"
+  },
+  "crt_submitto": {
+    "eng": "Submit to",
+    "arb": "إرسل لـ"
+  },
+  "crt_message": {
+    "eng": "Message",
+    "arb": "الرسالة"
+  },
+  "crt_uploadfile1": {
+    "eng": "Upload Your File 1",
+    "arb": "ملف مرفق 1"
+  },
+  "crt_uploadfile2": {
+    "eng": "Upload Your File 2",
+    "arb": "ملف مرفق 2"
+  },
+  "crt_uploadfile3": {
+    "eng": "Upload Your File 3",
+    "arb": "ملف مرفق 3"
+  },
+  "crt_uploadfile4": {
+    "eng": "Upload Your File 4",
+    "arb": "ملف مرفق 4"
+  },
+  "crt_uploadfile5": {
+    "eng": "Upload Your File 5",
+    "arb": "ملف مرفق 5"
+  },
+  "crt_isnotify": {
+    "eng": "Notify by email",
+    "arb": "إرسال تنبيه بالإيميل"
+  },    
+
+
+  "_comment2": "-------------------- Sidebar ----------------",
+
+  "side_welcome": {
+    "eng": "Welcome,",
+    "arb": "أهلا بك،"
+  },
+  "side_profile": {
+    "eng": "Edit Profile",
+    "arb": "تعديل الملف الشخصي"
+  },
+  "side_logout": {
+    "eng": "Logout",
+    "arb": "تسجيل الخروج"
+  },
+  "side_dashboard": {
+    "eng": "Dashboard",
+    "arb": "الأحداث"
+  },
+
+  "side_workflow": {
+    "eng": "Workflow",
+    "arb": "الدورات المستندية"
+  },
+  "side_create": {
+    "eng": "Create",
+    "arb": "إنشاء دورة جديدة"
+  },
+  "side_inbox": {
+    "eng": "Inbox",
+    "arb": "الوارد"
+  },
+  "side_empfolder": {
+    "eng": "Employee Folder",
+    "arb": "المجلدات"
+  },
+  "side_sent": {
+    "eng": "Sent",
+    "arb": "المرسلة"
+  },
+  "side_workflowstatus": {
+    "eng": "Workflow Status",
+    "arb": "حالة الدورات المستندية"
+  },
+  "side_pending": {
+    "eng": "Pending",
+    "arb": "قيد العمل"
+  },
+  "side_accepted": {
+    "eng": "Accepted",
+    "arb": "موافق عليها"
+  },
+  "side_rejected": {
+    "eng": "Rejected",
+    "arb": "تم رفضها"
+  },
+
+  "side_completed": {
+    "eng": "Completed",
+    "arb": "تمت بنجاح"
+  },
+  "side_cancelled": {
+    "eng": "Cancelled",
+    "arb": "تم إلغائها"
+  },
+  "side_expired": {
+    "eng": "Expired",
+    "arb": "منتهية"
+  },
+
+  "side_managecompanies": {
+    "eng": "Manage Companies",
+    "arb": "إدارة النظام"
+  },
+  "side_companies": {
+    "eng": "Companies",
+    "arb": "الشركات"
+  },
+  "side_employees": {
+    "eng": "Employees",
+    "arb": "الموظفين"
+  },
+
+  "_comment3": "-------------------- M-Companies ----------------",
+
+  "mcomp_gridtitle_engname": {
+    "eng": "Name (English)",
+    "arb": "الإسم باللغة الإنجليزية"
+  },
+  "mcomp_gridtitle_code": {
+    "eng": "Code",
+    "arb": "الشفرة"
+  },
+  "mcomp_lbl_code": {
+    "eng": "Code",
+    "arb": "الشفرة"
+  },
+  "mcomp_lbl_engname": {
+    "eng": "English Name",
+    "arb": "الإسم باللغة الإنجليزية"
+  },
+  "mcomp_lbl_companies": {
+    "eng": "Companies",
+    "arb": "الشركات"
+  },
+  "mcomp_lbl_managecompanies": {
+    "eng": "Manage Companies",
+    "arb": "إدارة الشركات"
+  },
+
+
+
+  "_comment4": "-------------------- M-Employees ----------------",
+
+  "memp_gridtitle_engname": {
+    "eng": "Name (English)",
+    "arb": "الإسم باللغة الإنجليزية"
+  },
+  "memp_lbl_id": {
+    "eng": "ID",
+    "arb": "رقم المعرف"
+  },
+  "memp_lbl_jobtitle": {
+    "eng": "Job Title",
+    "arb": "المسمى الوظيفي"
+  },
+  "memp_lbl_department": {
+    "eng": "Department",
+    "arb": "الإدارة"
+  },
+  "memp_lbl_company": {
+    "eng": "Company",
+    "arb": "الشركة"
+  },
+  "memp_lbl_sgroup": {
+    "eng": "Security Group",
+    "arb": "المجموعة الأمنية"
+  },
+  "memp_lbl_username": {
+    "eng": "User Name",
+    "arb": "إسم المستخدم"
+  },
+  "memp_lbl_password": {
+    "eng": "Password",
+    "arb": "كلمة المرور"
+  },
+  "memp_lbl_emailaddress": {
+    "eng": "Email Address",
+    "arb": "البريد الالكتروني"
+  },
+  "memp_lbl_phone": {
+    "eng": "Phone",
+    "arb": "التليفون"
+  },
+  "memp_lbl_administrator": {
+    "eng": "Administrator",
+    "arb": "مدير النظام"
+  },
+
+  "memp_lbl_employees": {
+    "eng": "Employees",
+    "arb": "الموظفين"
+  },
+  "memp_lbl_manageemployees": {
+    "eng": "Manage Employees",
+    "arb": "إدارة الموظفين"
+  },
+
+  "_comment5": "-------------------- Workflow Detail ----------------",
+
+  "workdetail_workflowdetail": {
+    "eng": "Workflow Detail",
+    "arb": "تفاصيل الدورة المستندية"
+  },
+  "workdetail_editworkflow": {
+    "eng": "Edit Workflow",
+    "arb": "تحرير سير العمل"
+  },
+  
+  "workdetail_workflowaction": {
+    "eng": "Workflow Action",
+    "arb": "أمر الدورة المستندية"
+  },
+  "workdetail_moveto": {
+    "eng": "Move To",
+    "arb": "نقل الى"
+  },
+  "workdetail_workflowlifecycle": {
+    "eng": "Workflow Lifecycle",
+    "arb": "سير عمل الدورة المستندية"
+  },
+  "workdetail_details": {
+    "eng": "Details",
+    "arb": "تفاصيل"
+  },
+  "workdetail_extend": {
+    "eng": "Extend",
+    "arb": "تمديد"
+  },
+  "workdetail_move": {
+    "eng": "Move",
+    "arb": "نقل"
+  },
+  "workdetail_empname": {
+    "eng": "Employee Name",
+    "arb": "اسم الموظف"
+  },
+  "workdetail_takeaction": {
+    "eng": "Take Action",
+    "arb": "أبدي فعل"
+  },
+  "workdetail_workflowlog": {
+    "eng": "Workflow Log",
+    "arb": "سجل سير العمل"
+  },
+
+  "_comment6": "-------------------- Header ----------------",
+
+  "header_currentlang": {
+    "eng": "Current Language",
+    "arb": "اللغه الحاليه"
+  }
+
+}

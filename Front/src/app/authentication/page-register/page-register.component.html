@@ -1,0 +1,80 @@
+<div id="wrapper">
+	<div class="vertical-align-wrap">
+		<div class="vertical-align-middle auth-main">
+			<div class="auth-box">
+				<div class="top">
+					<img src="assets/images/logoimg.png" alt="Logo">
+				</div>
+				<div class="card">
+					<div class="header">
+						<p class="lead">Create an account</p>
+					</div>
+					<div class="body">
+						<form class="form-auth-small" [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm.value,registerForm.valid)">
+
+
+							<div class="form-group">
+								<label for="username" class="control-label sr-only">User Name</label>
+								<input type="text" formControlName="username" class="form-control" id="username" placeholder="User Name">
+								<span class="error-block" *ngIf="isSubmitted && !(registerForm.controls.username.valid)">
+									Username is
+									required. </span>
+							</div>
+
+							<div class="form-group">
+								<label for="firstname" class="control-label sr-only">First Name</label>
+								<input type="text" formControlName="firstname"  class="form-control" id="firstname" placeholder="First Name">
+								<span class="error-block" *ngIf="isSubmitted && !(registerForm.controls.firstname.valid)">
+									First name is
+									required. </span>
+							</div>
+
+							<div class="form-group">
+								<label for="lastname"  class="control-label sr-only">Last Name</label>
+								<input type="text" formControlName="lastname" class="form-control" id="lastname" placeholder="Last Name">
+								<span class="error-block" *ngIf="isSubmitted && !(registerForm.controls.lastname.valid)">
+									Last name is
+									required. </span>
+							</div>
+
+							<div class="form-group">
+								<label for="email"  class="control-label sr-only">Email</label>
+								<input type="text" formControlName="email" class="form-control" id="email" placeholder="Email">
+								<span class="error-block"
+								*ngIf="isSubmitted && registerForm.get('email').hasError('required')">
+								Email is required. </span>
+							<span class="error-block"
+								*ngIf="isSubmitted && registerForm.get('email').hasError('email')">
+								Email not valid. </span>
+
+							</div>
+
+							<div class="form-group">
+								<label for="password"  class="control-label sr-only">Password</label>
+								<input type="password" formControlName="password" class="form-control" id="password" placeholder="Password">
+								<span class="error-block" *ngIf="isSubmitted && !(registerForm.controls.password.valid)">
+									Password is
+									required. </span>
+							</div>
+
+							<div class="form-group">
+								<label for="confirmpassword"  class="control-label sr-only">Confirm Password</label>
+								<input type="password" formControlName="confirmpassword" class="form-control" id="confirmpassword" placeholder="Confirm Password">
+									<span class="error-block"
+									*ngIf="isSubmitted && registerForm.get('confirmpassword').hasError('required')">
+									Confirm Password is required. </span>
+									<span class="error-block"
+								*ngIf="isSubmitted && registerForm.get('confirmpassword').hasError('matchConfirmPassword')">
+								Passwards didn't matched. </span>
+							</div>
+							<button type="submit" class="btn btn-primary btn-lg btn-block">REGISTER</button>
+							<div class="bottom">
+								<span class="helper-text">Already have an account? <a [routerLink]="['/login']">Login</a></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
